@@ -1,0 +1,409 @@
+
+
+.nav-bar {
+    background-color: #121921;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.location-container, .language, .login, .returns, .cart {
+    margin-left: 10px;
+}
+
+
+.logo-img {
+    width: 100px;
+}
+
+
+.location-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding: 5px;
+    transition: all 0.3s ease;
+}
+
+.location-container:hover {
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.location-img {
+    width: 30px;
+}
+
+.deliver {
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+.deliver span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+@media (max-width: 978px) {
+    .location-container {
+        margin-left: 5px;
+        padding: 3px;
+    }
+
+    .location-img {
+        width: 24px;
+    }
+
+    .deliver {
+        font-size: 10px;
+    }
+
+    .deliver span {
+        font-size: 12px;
+    }
+}
+
+
+.input-search-area {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    min-width: 50%;
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: border-color 0.3s ease;
+}
+
+.input-search-area:focus-within {
+    border: 2px solid #febd69; 
+}
+
+.header-select, .search-input, .search-icon {
+    height: 40px;
+}
+
+.header-select {
+    padding: 0 10px;
+    border: none;
+    background-color: white;
+    flex-shrink: 0;
+    flex-grow: 0;
+    min-width: 50px;
+    max-width: 80px;
+    outline: none;
+    cursor: pointer;
+}
+
+.search-input {
+    width: 100%;
+    border: none;
+    padding: 0 12px;
+    outline: none;
+    flex-grow: 1;
+}
+
+.search-icon {
+    width: 35px;
+    padding: 0 10px;
+    cursor: pointer;
+    background-color: #febd69;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-img {
+    width: 20px;
+}
+
+.language-options {
+    display: none;
+    position: absolute;
+    top: 40px;
+    width: 250px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 10;
+}
+
+.language:hover .language-options {
+    display: block;
+}
+
+.language {
+    position: relative;
+    border: 1px solid transparent;
+    padding: 10px;
+}
+
+.language:hover {
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.us--flag {
+    width: 20px;
+}
+
+.en {
+    margin-left: 5px;
+}
+
+.down--arrow {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    font-size: 8px;
+    line-height: 1;
+    margin-left: 3px;
+}
+
+.language-check-box {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    appearance: none;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
+
+.language-check-box:hover::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: orange;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.language-check-box:checked::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: orange;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login {
+    padding: 10px;
+    position: relative;
+}
+
+.login p {
+    margin: 0;
+}
+
+.login .sign--in {
+    display: none;
+}
+
+.login:hover .sign--in {
+    display: block;
+}
+
+
+.returns {
+    padding: 10px;
+}
+
+.returns p {
+    margin: 0;
+}
+
+@media(max-width:1200px){
+    .language, .login, .returns {
+        margin-left: 5px;
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .us--flag {
+        width: 15px; 
+    }
+
+    .down--arrow {
+        font-size: 6px;
+    }
+
+    .sign--in, .language-options {
+        width: 200px; 
+    }
+
+    .location-container {
+        margin-left: 5px; 
+    }
+
+    .location-img {
+        width: 25px; 
+    }
+
+    .deliver {
+        font-size: 10px; 
+    }
+
+    .logo-img {
+        width: 80px; 
+    }
+
+    .input-search-area {
+        min-width: 40%;
+    }
+
+    .header-select, .search-input, .search-icon {
+        height: 35px;
+    }
+
+    .search-icon {
+        width: 30px; 
+    }
+}
+
+
+@media (max-width: 900px) {
+    .language, .login, .returns {
+        margin-left: 0px;
+        padding: 0px;
+        font-size: 6px; 
+    }
+    .language{
+        padding: 11px;
+    }
+
+    .us--flag {
+        width: 15px; 
+    }
+
+    .down--arrow {
+        font-size: 4px; 
+    }
+
+    .sign--in, .language-options {
+        width: 180px; 
+    }
+
+    .location-container {
+        margin-left: 3px; 
+    }
+
+    .location-img {
+        width: 15px; 
+    }
+
+    .deliver {
+        font-size: 8px; 
+    }
+
+    .logo-img {
+        width: 35px;
+    }
+
+    .input-search-area {
+        min-width: 30%;
+    }
+
+    .header-select, .search-input, .search-icon {
+        height: 30px; 
+    }
+
+    .search-icon {
+        width: 30px; 
+    }
+   
+}
+
+
+.login{
+    border: 1px solid transparent;
+}
+.login:hover {
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.login:hover .sign--in{
+    display: block;
+    cursor: pointer;
+}
+.login p{
+    font-size: 12px;
+    padding: 0;
+}
+.login p span{
+    font-size: 7px;
+    padding-left: 5px;
+}
+.sign--in{
+    display: none;
+    top: 50px;
+    width: 250px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 10;
+}
+.sign--in button{
+    border: none;
+    background-color: #fee569;
+    border-radius: 5px;
+    width: 100px;
+}
+.returns{
+    margin-left: 7px;
+}
+.returns p{
+    font-size: 12px;
+}
+.returns:hover {
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.cart{
+    margin-left: 7px;
+}
+.shop-cart{
+    width: 40px;
+}
+.cart-b{
+    color: #d78821;
+    font-size: 18px;
+    left: 14px;
+}
+.cart:hover {
+    border: 1px solid #ccc;
+    cursor: pointer;
+    
+}
+
+.sub--header{
+    background-color: #232f3f;
+    color: white;
+    height: 40px;
+}
+.menu--img{
+    width: 30px;
+}
+.menu-cont:hover{
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.sub--header p{
+    font-size: 0.85rem;
+}
+.sub--header p:hover{
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+

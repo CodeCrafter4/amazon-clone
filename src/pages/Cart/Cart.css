@@ -1,0 +1,13 @@
+.proceed{
+    height: auto;
+    align-self: flex-start;
+}
+
+@media(max-width:700px){
+    .single--desc h6{
+        display: none;
+    }
+    .proceed-btn{
+        font-size: 10px;
+    }
+}

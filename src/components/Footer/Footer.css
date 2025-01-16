@@ -1,0 +1,88 @@
+.footer--top{
+    background-color: #232f3f;
+    color: #f3fffa;
+}
+.footer--top p{
+    font-size: 14px;
+}
+.footer--top li{
+    font-size: 12px;
+}
+.footer--top li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.globe{
+    height: 35px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; 
+}
+.globe:hover{
+    background-color: #55687a;
+    cursor: pointer;
+}
+.globe img{
+    width: 25px;
+}
+.logo img{
+    width: 100px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.bottom--foot{
+    background-color: #131a22;
+    color: #656c6b;
+}
+.bottom--foot p{
+    font-size: 10px;
+}
+.bottom--foot p span{
+    font-weight: 600;
+    color: #c5cccf;
+}
+.bottom--foot--top div{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.bottom--foot--top div p:hover{
+    cursor: pointer;
+    text-decoration: underline 1px white;
+}
+
+@media(max-width:770px){
+    .footer--top p{
+        font-size: 10px;
+    }
+    .footer--top li{
+        font-size: 8px;
+    }
+}
+@media(max-width:1024px){
+    .bottom--foot--top div{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+@media(max-width:770px){
+    .bottom--foot--top div{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+.last--ul li{
+    font-size: 12px;
+}
+.last--ul li:hover{
+    cursor: pointer;
+    text-decoration: underline 1px white;
+}
+.last--container p{
+    font-size: 12px;
+}

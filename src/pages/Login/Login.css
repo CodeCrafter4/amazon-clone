@@ -1,0 +1,178 @@
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 100px;
+  }
+  
+  .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .create{
+    right: 0;
+  }
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+    border: 1px solid #dee2e6;
+  }
+  
+  .login-container span:hover{
+    cursor: pointer;
+    text-decoration: underline solid #317dce;
+  }
+  
+.centered-container{
+    border-radius: 5px;
+}
+
+  .centered-container input:focus{
+    outline:1px solid #317dce;
+  }
+  .terms, .businnes, .last-p{
+    font-size: 12px;
+  }
+  .label{
+    display: flex;
+    justify-content: start;
+
+  }
+  .centered-container button {
+    width: 320px;
+    margin: 0; 
+    padding: 3px;
+    font-size: 12px;
+    background-color: #fed813;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  .centered-container button:hover{
+    background-color: #dab913;
+  }
+  
+  .custom-hr--top {
+    width: 80%; 
+    margin: 10px auto;
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.3), transparent);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-hr {
+    width: 80vw; 
+    margin: 1rem auto;
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.3), transparent);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2); 
+    position: relative; 
+    
+  }
+  .last--li li{
+    list-style: none;
+    font-size: 12px;
+  }
+  .last--li li:hover{
+    cursor: pointer;
+  }
+  .last--p{
+    font-size: 12px;
+  }
+  
+  .new-to-amazon-container {
+    display: flex;
+    width: 350px;
+    margin: auto;
+    align-items: center; 
+    justify-content: center; 
+    gap: 10px; 
+    margin-bottom: 10px; 
+  }
+  .new-to-amazon-container span{
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .new-to-amazon-container span:hover{
+    text-decoration: none;
+    cursor: auto;
+  }
+  .business{
+    font-size: 12px;
+  }
+  .need--help{
+    font-size: 12px;
+    color: #317dce;
+    cursor: pointer;
+  }
+  
+  .line {
+    flex-grow: 1; 
+    height: 1px; 
+    background-color: #ccc; 
+  }
+  
+  .new-to-amazon-text {
+    padding: 0 10px; 
+    white-space: nowrap; 
+  }
+  .bottom--class button {
+    border: 1px solid gray;
+    border-radius: 4px;
+    width: 320px;
+    padding: 3px;
+    font-size: 12px;
+    background-color: transparent;
+    box-shadow: 0 4px 8px rgba(128, 128, 128, 0.3);
+    transition: background-color 0.3s ease; 
+  }
+  
+  .bottom--class button:hover {
+    background-color:#f8f9fb; 
+  }
+  
+.login-container span {
+    color: #317dce;
+  }
+  
+  .login-container span:hover {
+    cursor: pointer;
+    text-decoration: underline solid #317dce;
+  }
+  
+  .centered-container input {
+    width: 320px;
+    border-radius: 4px;
+    margin: 0;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    padding: 3px;
+  }
+  
+  .centered-container input:focus {
+    outline: 1px solid #317dce;
+  }
+  
+  
+ 
+  .error-border {
+    border: 2px solid red; 
+  }
+
+  .form--input span{
+    color: red;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  

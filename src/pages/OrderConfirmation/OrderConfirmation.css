@@ -1,0 +1,29 @@
+
+
+
+.order-confirmation {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.order-confirmation h1 {
+    margin-bottom: 20px;
+}
+
+.order-details p {
+    margin: 10px 0;
+}
+
+.order-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-details ul li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+

@@ -1,0 +1,38 @@
+.small--images img{
+    width: 30px;
+}
+.top--top{
+    height: 35px;
+}
+.sigle--image{
+    width:100% ;
+    height: fit-content;
+}
+.star--icons img{
+    display: flex;
+    width: 15px;
+    padding-left: 5px;
+}
+.single--link a{
+    color: gray;
+}
+.add-btn{
+    border: none;
+    background-color: orange;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px 15px;
+}
+.best--seler{
+    background-color: #c35501;
+    border: 1px solid white;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+
+}
+.about--item{
+    font-size: 12px;
+    margin-top: 20px;
+}

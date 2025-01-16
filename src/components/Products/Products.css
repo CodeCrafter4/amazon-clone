@@ -1,0 +1,29 @@
+.imgs {
+    max-width: 100%; 
+    height: auto;    
+    object-fit: contain; 
+  }
+  .image_names p, .last_p{
+    font-size: 12px;
+  }
+  .products a{
+    text-decoration: none;
+    color: gray;
+  }
+  
+  /* @media(max-width:768px){
+    .centering--class--top{
+      width: 100%;
+    }
+    .centering--class{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+        margin: auto 0px;
+    }
+    .centering--class img{
+      width: 100%;
+    }
+  } */
+ 
+  

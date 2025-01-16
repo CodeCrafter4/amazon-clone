@@ -1,0 +1,22 @@
+.before--footer button{
+        width: 250px;
+        background-color: #ffcb4a;
+}
+.before--footer p{
+    font-size: 12px;
+}
+.before--footer hr{
+    width: 98%;
+    margin: auto;
+}
+
+
+.back--to--top {
+    background-color: #364759; 
+    transition: background-color 0.3s ease; 
+}
+
+.back--to--top:hover {
+    background-color: #55687a; 
+    cursor: pointer; 
+}
