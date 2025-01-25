@@ -9,10 +9,10 @@ const SubHeader = () => {
           <img className="menu--img" src={menu_icon} alt="" />
           <b>All</b>
         </div>
-        <p className="m-0">Today's Deals</p>
+        <p className="m-0">Deals</p>
         <p className="m-0 d-none d-md-flex">Customer Services</p>
         <p className="m-0">Registry</p>
-        <p className="m-0">Gift Cards</p>
+        <p className="m-0">Gift </p>
         <p className="m-0">Sell</p>
       </div>
       <div className="align-items-center d-none d-md-flex">
